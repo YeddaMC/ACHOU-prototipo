@@ -5,8 +5,8 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  // base para deploy no GitHub Pages (substitua se renomear o repositório)
-  base: '/ACHOU---PROTOTIPO/',
+  // base para deploy no GitHub Pages (ajustado para o repo em YeddaMC)
+  base: '/ACHOU-prototipo/',
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     alias: {
